@@ -5,8 +5,8 @@ gal-test ; The signature
 ;   1st line: Pins 1 - 12
 ;   2nd line: Pins 13 - 24
 
-A   B   NC  NC  NC  NC  NC  NC  NC  NC  NC  GND
-NC  NC  Z   Y   X   W   V   U   NC  NC  NC  VCC
+A   B   NC NC  NC  NC  NC  NC  NC  NC  NC  GND
+NC  NC  Z  Y   X   W   V   U   NC  NC  NC  VCC
 
 ; Logic equations
 
@@ -18,9 +18,5 @@ W = A * B
 Z = /A * B + A * /B
 
 DESCRIPTION:
-U = NOT A
-V = OR
-W = AND
-X = NAND
-Y = NOR
-Z = XOR
+Tests Various Logic Equations on a GAL20V8 chip.
+
