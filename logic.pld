@@ -1,9 +1,9 @@
 GAL20V8  ; The device type
-gal-test ; The signature
+logic    ; The signature
 
 ; Pin definitions:
-;   1st line: Pins 1 - 12
-;   2nd line: Pins 13 - 24
+; 1st line: Pins 1 - 12
+; 2nd line: Pins 13 - 24
 
 A   B   NC NC  NC  NC  NC  NC  NC  NC  NC  GND
 NC  NC  Z  Y   X   W   V   U   NC  NC  NC  VCC
